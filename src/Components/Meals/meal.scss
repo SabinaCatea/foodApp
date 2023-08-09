@@ -1,0 +1,49 @@
+// .meal-container {
+//   display: flex;
+//   margin: 0 200px;
+//   justify-content: space-between;
+//   align-items: center;
+//   line-height: 0.4;
+//   border-bottom: 2px;
+//   background-color: aliceblue;
+//   padding: 10px 20px;
+//   border-radius: 20px;
+// }
+.meal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0.4;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgb(156, 151, 151);
+}
+.name {
+  font-weight: bold;
+}
+.description {
+  font-style: italic;
+  font-size: 14px;
+}
+.amount {
+  color: rgb(214, 134, 30);
+  font-weight: bold;
+}
+.price {
+  text-align: center;
+  font-weight: bold;
+}
+.count {
+  margin-left: 4px;
+  width: 30px;
+}
+.count-label {
+  font-weight: bold;
+}
+.add-button {
+  background-color: #aa3939;
+  border-radius: 30px;
+  padding: 5px 20px;
+  border: none;
+  color: white;
+  margin-top: 5px;
+}
